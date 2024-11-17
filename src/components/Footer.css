@@ -1,0 +1,96 @@
+footer {
+  background-color: #222; /* Dark gray background */
+  color: #f1f1f1; /* Light text color */
+  padding: 20px 10px; /* Reduced padding */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Reduced gap between sections */
+}
+
+.footer-main-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Reduced gap between links */
+  margin-bottom: 15px; /* Reduced bottom margin */
+}
+
+.footer-links,
+.footer-contact,
+.social-links {
+  flex: 1;
+  min-width: 150px; /* Reduced minimum width */
+}
+
+footer h3 {
+  font-size: 18px; /* Reduced font size for headings */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f1f1f1; /* White for headings */
+}
+
+.footer-links a,
+.social-links a {
+  color: #d3d3d3; /* Light gray for links */
+  text-decoration: none;
+  margin: 3px 0; /* Reduced vertical margin */
+  font-size: 14px; /* Smaller font size for links */
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.social-links a:hover {
+  color: #ff4081; /* Soft pink highlight for hover effect */
+}
+
+.footer-contact p {
+  font-size: 12px; /* Reduced font size for contact details */
+  color: #cccccc; /* Light gray */
+  margin: 3px 0; /* Reduced vertical margin */
+}
+
+footer p {
+  margin: 8px 0; /* Reduced general paragraph margin */
+  font-size: 13px; /* Smaller font size for text */
+}
+
+footer .social-links a {
+  font-size: 16px; /* Smaller font size for social links */
+  margin: 0 8px; /* Reduced horizontal margin */
+}
+
+footer .social-links a:hover {
+  color: #ffd700; /* Gold highlight on hover */
+}
+
+@media (max-width: 768px) {
+  .footer-main-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Further reduced gap for smaller screens */
+  }
+}
+.footer-links {
+  display: flex;
+  flex-direction: row; /* Arrange links horizontally */
+  justify-content: center; /* Center links in the footer */
+  gap: 20px; /* Adjust horizontal spacing between links */
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff4081;
+}

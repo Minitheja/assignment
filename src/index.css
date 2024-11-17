@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* src/App.css or your appropriate CSS file */
+
+.cake-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.cake-item img {
+  width: 100%;
+  height: auto;
+}
+
+button.active {
+  background-color: #f0a500;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
