@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CakeItem.css';
+
 
 function CakeItem({ cake, onAddToCart }) {
   const [selectedSize, setSelectedSize] = useState(cake.sizeOptions[0]);
