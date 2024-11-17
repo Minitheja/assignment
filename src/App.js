@@ -12,7 +12,6 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import cakes from './data/cakesData';
 import './styles/App.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function App() {
